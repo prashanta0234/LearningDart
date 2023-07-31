@@ -1,3 +1,5 @@
+import 'test.dart';
+
 void main() {
   // data types
 
@@ -26,4 +28,5 @@ void main() {
   dynamic ageDy = 22;
   ageDy = ageMonth;
   print(ageDy);
+  test();
 }
