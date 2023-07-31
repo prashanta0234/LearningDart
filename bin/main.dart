@@ -27,6 +27,17 @@ void main() {
 
   dynamic ageDy = 22;
   ageDy = ageMonth;
-  print(ageDy);
+  print("My name is:" +
+      " " +
+      firstName +
+      " " +
+      lastName +
+      " " +
+      "and my age is:" +
+      "${age}" +
+      " " +
+      "Age in month is:" +
+      " " +
+      "${ageMonth}");
   test();
 }
